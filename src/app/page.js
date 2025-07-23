@@ -8,7 +8,7 @@ import { IntroSection } from '@/components/IntroSection';
 import { JoinSection } from '@/components/JoinSection';
 import { NewsletterSection } from '@/components/NewsLetterSection';
 import ProductsSection from '@/components/ProductsSection';
-import { RoadmapSection } from '@/components/RoadMapSection';
+import { RoadmapSection } from '@/components/RoadmapSection';
 import { SupportSection } from '@/components/SupportSection';
 
 export default function Home() {
