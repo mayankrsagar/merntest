@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MERN Test Frontend
 
-## Getting Started
+A pixel-perfect Next.js + Tailwind CSS implementation of the APURA Figma design, demonstrating design-to-code skills, responsiveness, animations, and Razorpay integration.
 
-First, run the development server:
+## Table of Contents
+
+* [Demo](#demo)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Running Locally](#running-locally)
+* [Approach & Trade-offs](#approach--trade-offs)
+* [Animations & Interactions](#animations--interactions)
+* [License](#license)
+
+---
+
+## Demo
+
+[View the live demo on Vercel](https://your-vercel-url.vercel.app)
+
+## Features
+
+* Pixel-perfect layout matching Figma design on desktop and iPhone 13 Mini
+* Responsive design: mobile, tablet, desktop
+* Tailwind CSS for utility-first styling
+* Framer Motion animations on all sections
+* Razorpay test integration with dynamic `order_id`
+* Modular components for maintainability
+
+## Technologies
+
+* Next.js (v14+)
+* React (v18+)
+* Tailwind CSS (v3+)
+* Framer Motion (v10+)
+* Heroicons (v2)
+
+## Prerequisites
+
+* Node.js (v18+)
+* npm or yarn
+
+## Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/mayankrsagar/merntest.git
+   cd merntest
+   ```
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Running Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Approach & Trade-offs
 
-## Learn More
+* **Next.js** chosen for rapid setup, SSR capabilities, and file-based routing.
+* **Tailwind CSS** for atomic styling and easy responsive utilities.
+* **Framer Motion** for lightweight, declarative animations.
+* **Trade-off**: Scoped each section into its own component, which increases file count but improves readability and reusability.
 
-To learn more about Next.js, take a look at the following resources:
+## Animations & Interactions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Header fades in and nav links scale on hover.
+* Hero section items stagger into view.
+* Buttons include hover and tap feedback via Framer Motion.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT © Mayank Sagar;
